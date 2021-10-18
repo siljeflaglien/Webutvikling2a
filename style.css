@@ -50,6 +50,26 @@ main {
     flex-direction: column;
 }
 
+nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+nav div {
+    border: solid white 2px;
+    padding: 1rem;
+    margin: 2rem;
+}
+
+nav a {
+    color: white;
+}
+
+nav a:hover {
+    color: #00000063;
+}
+
 
 
 @media (min-width: 700px){
