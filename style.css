@@ -32,16 +32,19 @@ h2 {
 }
 
 div.bilde {
-    width: max-content;
-    background-color: black;
+    width: 250px;
+    background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 5rem;
-    color: white;
+    color: black;
     text-align: center;
     padding-bottom: 5px ;
 
+}
+img {
+    padding-top: 20px;
 }
 
 
@@ -49,6 +52,7 @@ main {
     display: flex;
     flex-direction: column;
 }
+
 
 
 
@@ -116,6 +120,7 @@ div.bilde {
     width: 90%;
     height: 60%;
     text-align: center; 
+    line-height: 2rem;
   }
   h1{
     font-size: 9rem;
