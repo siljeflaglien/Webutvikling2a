@@ -70,7 +70,9 @@ nav a:hover {
     color: #00000063;
 }
 
-
+article {
+    height: 100vh;
+}
 
 @media (min-width: 700px){
 .gruppe{
